@@ -1,0 +1,14 @@
+name = "jp1"
+uuid = "9b9d5199-7182-4f99-b9f8-82d57ac0734e"
+authors = ["Nikita Aleksandrov", "nikitosiks338@gmail.com"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
